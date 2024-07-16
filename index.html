@@ -20,7 +20,9 @@
             <h3> CSS Introduction</h3>
             <p>
                 If you're new to web development, be sure to read our CSS basics article to learn what CSS is and how to
-                use it.
+                use it. Multiple declarations may set different values for the same element
+                and property combination, but only one value can be applied to any CSS property. The CSS cascade module
+                defines how these conflicts are resolved.
             </p>
         </article>
 
@@ -28,18 +30,26 @@
             <h3>CSS Tutorials</h3>
             <p id="second" class="grey">
                 Our CSS learning area contains a wealth of tutorials to take you from beginner level to proficiency,
-                covering all the fundamentals.
+                covering all the fundamentals.One of the fundamental design principles of CSS is cascading of rules. It
+                allows several style sheets to influence the presentation of a document. CSS property-value declarations
+                define how a document is rendered.
             </p>
         </article>
 
         <article>
             <h3> CSS Reference</h3>
             <p class="grey">
-                Our exhaustive CSS reference for seasoned Web developers describes every property and concept of CSS.
+                Our exhaustive CSS reference for seasoned Web developers describes every property and concept of CSS.The
+                opposite also occurs. Sometimes there are no declarations defining the value of a property. The CSS
+                cascade module defines how these missing values should be set via inheritance or from the property's
+                initial value.
             </p>
         </article>
-
-        <div class="circle"></div>
+        <!-- <form>
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Your name">
+            <button>Submit</button>
+        </form> -->
 
     </main>
 

@@ -1,25 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    padding: 10%;
+    font-size: 1rem;
 }
 
-.container {
-    border: 10px double #1C5787 ;
-    margin: 1.5em ;
-    font-size: 1.5rem;
-    padding: 1.5em ;
-    outline: 5px solid black;
-    outline-offset: 10px;
-}
+/* input,
+button {
+    font-size: inherit;
+} */
 
-.circle{
-    margin:2em auto;
-    border: 10px solid #1C5787;
-    border-radius: 50%;
-    background-color: blanchedalmond;
-    width: 100px;
-    height: 100px;
-    outline: 5px dashed black;
-    outline-offset: 10px;
+p {
+    line-height: 1.4;
 }
