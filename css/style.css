@@ -8,4 +8,5 @@ p {
     /* color: rgba(93, 0, 255, 0.5); */
     /* color: hsla(180, 62%, 56%, 0.9); */
     color: #1C5787;
+    color: hsl(hue, saturation, lightness);
 }
