@@ -6,3 +6,12 @@ Selector
     o Class Selector
     o Id Selector
     o Universal Selector
+
+
+-> colors
+    o rgb(red, green, blue)
+    o rgba - a:saturation
+    o name
+    o hex value
+    o hsl(hue, saturation, lightness); 
+    o hsla - a:saturation
