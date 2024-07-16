@@ -1,12 +1,11 @@
+body {
+    font-size: 18px;
+    color: #323232;
+    background-color: #fcfeff;
+}
+
 p {
-    color: blue;
-    font-size: 16px;
-}
-
-.grey {
-    color: gray;
-}
-
-#second{
-    color: rgb(94, 234, 234);
+    /* color: rgba(93, 0, 255, 0.5); */
+    /* color: hsla(180, 62%, 56%, 0.9); */
+    color: #1C5787;
 }
