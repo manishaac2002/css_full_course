@@ -11,3 +11,9 @@ button {
 p {
     line-height: 1.4;
 }
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
