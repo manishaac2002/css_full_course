@@ -3,17 +3,24 @@ body {
     font-size: 1rem;
 }
 
-/* input,
-button {
-    font-size: inherit;
-} */
-
 p {
     line-height: 1.4;
 }
 
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: green;
 }
