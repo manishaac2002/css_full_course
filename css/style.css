@@ -26,7 +26,7 @@ a:active {
 }
 
 ol {
-    list-style-type: upper-roman;
+    list-style-type: lower-alpha;
 }
 
 ul {
@@ -38,4 +38,9 @@ ul {
 
 ul li:nth-child(2) {
     color: brown;
+}
+
+ol li::marker{
+    color:rgb(35, 192, 249) ;
+    font-size: 1.7em;
 }
