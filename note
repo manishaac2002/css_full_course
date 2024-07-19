@@ -18,3 +18,12 @@ Selector
 
 -> quotation mark
    o visit unicode tale characters website
+
+-> position 
+   o absolute - take position only after mentioning parent class as relative
+   o relative - impact parent class
+   o fixed    - fixed element
+   o sticky   - sticky for its particular class 
+
+-> css Element
+   o z-index to fix the layers of the component
