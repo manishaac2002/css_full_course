@@ -2,32 +2,23 @@ body {
     margin: 1rem;
 }
 
-.block {
-    background-color: black;
-    color: white;
-    width: 15vw;
-    height: 15vw;
-    font-size: 2rem;
-    padding: 1rem;
+.column {
+    columns: 250px 4;
+    column-rule: 2px solid gray;
+    column-gap: 3rem;
 }
 
-.left {
-    float: left;
-    margin-right: 10px;
+.column p {
+    margin-top: 0;
 }
 
-.right {
-    float: right;
-    margin-left: 10px;
+.column .quote {
+    text-align: center;
+    font-size: 3rem;
+    column-span: all;
+    margin-top: 2rem;
 }
 
-.clear {
-    clear: both;
-}
-
-section {
-    background-color: burlywood;
-    border: 1px solid rgb(9, 9, 9);
-    padding: 1rem;
-    display: flow-root;
+.nowrap {
+    white-space: nowrap;
 }
