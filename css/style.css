@@ -1,24 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 1rem;
+    font-size: 1.5rem;
 }
 
-.column {
-    columns: 250px 4;
-    column-rule: 2px solid gray;
-    column-gap: 3rem;
+section {
+    height: 100VH;
 }
 
-.column p {
-    margin-top: 0;
+.blue {
+    background-color: rgb(119, 119, 252);
 }
 
-.column .quote {
+.red {
+    background-color: rgb(252, 102, 102);
+}
+
+.green {
+    background-color: rgb(138, 204, 138);
+}
+
+header,
+footer {
+    color: aliceblue;
     text-align: center;
-    font-size: 3rem;
-    column-span: all;
-    margin-top: 2rem;
+
+    padding: 1rem;
 }
 
-.nowrap {
-    white-space: nowrap;
+header {
+    position: sticky;
+    top: 0;
+    font-size: 3rem;
+    height: 60px;
+
+    text-align: center;
+    margin-left: 6rem;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    font-size: 2rem;
+    background-color: black;
+    width: 100%;
+    height: 40%;
+}
+
+a {
+    color: rgb(217, 217, 217);
+}
+
+.press {
+    background-color: rgb(0, 0, 0);
+    color: skyblue;
+    font-size: inherit;
+    position: fixed;
+    top: 30%;
+    left: 0;
+
+}
+
+.press1 {
+    background-color: rgb(0, 0, 0);
+    color: skyblue;
+    font-size: inherit;
+    position: fixed;
+    top: 40%;
+    left: 0;
+
+}
+
+.press2 {
+    background-color: rgb(0, 0, 0);
+    color: skyblue;
+    font-size: inherit;
+    position: fixed;
+    top: 50%;
+    left: 0;
+
+}
+
+.press3 {
+    background-color: rgb(0, 0, 0);
+    color: skyblue;
+    font-size: inherit;
+    position: fixed;
+    top: 60%;
+    left: 0;
+
 }
