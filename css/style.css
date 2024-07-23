@@ -4,37 +4,20 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
-    padding: 20px;
-}
-
-.container{
-    max-width: 800px;
-    min-height: 400px;
-    margin-inline: auto;
-    border: 3px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    flex-direction: row;
-    flex-wrap: wrap;
 
 }
 
-.box{
-    /* min-width: 100px; */
-    /* flex-basis: 100px; */
-    min-height: 100px;
-    background-color: rgb(24, 22, 22);
+.box {
+
+    background-color: rgb(172, 55, 55);
     color: white;
     font-size: 2rem;
     padding: 0.5rem;
-    flex: 1 1 100px;
 }
 
-.box:nth-child(2){
-    flex: 2 2 200px;
-    order: -1;
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr, 1fr);
 }
